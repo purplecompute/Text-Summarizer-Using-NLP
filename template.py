@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')   # Configuring the logging module to display the time and the message.
 
-project_name = "Text Summarizer Using NLP"   # Declaring the project name.
+project_name = "textSummarizer"   # Declaring the project name.
 
 # Creating a variable to store the list of files that need to be created.
 list_of_files = [
@@ -39,7 +39,7 @@ for filepath in list_of_files:
         os.makedirs(filedir, exist_ok=True)  # Create the directory if it does not exist.
         logging.info(f"Creating directory:{filedir} for the file {filename}")   # Logging the creation of the directory.
         
-    if(not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
+    if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
         with open(filepath, 'w') as f:
             pass
             logging.info(f"Creating empty file: {filepath}")

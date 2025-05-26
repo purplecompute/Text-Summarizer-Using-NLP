@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: textSummarizer
+Version: 0.0.1
+Summary: A small python package for NLP app
+Home-page: https://github.com/purplecompute/Text-Summarizer-Using-NLP
+Author-email: sataomayur@gmail.com
+Project-URL: Bug tracker, https://github.com/purplecompute/Text-Summarizer-Using-NLP/issues
+License-File: LICENSE
