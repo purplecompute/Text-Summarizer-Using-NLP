@@ -1,0 +1,12 @@
+#virtual environment
+.textS
+artifacts/*
+**/__pycache__
+# logsfile
+logs/running_logs.log
+#compiled python files
+*.pyc
+*.pyo
+*.pyd
+# vs code settings
+.vscode/
